@@ -85,21 +85,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+.benefits section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* section heading right side */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -115,7 +107,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* right images on website change class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +125,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* change class sections */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* change class for image */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +164,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Change class for h2 */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
