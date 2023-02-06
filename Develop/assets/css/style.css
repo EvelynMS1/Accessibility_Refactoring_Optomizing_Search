@@ -1,29 +1,31 @@
+/* This universal selector is applied to every individual element on the HTML sheet.
+The box sizing property with border box value indicates the content of a box to have the padding and border included when so it adjusts properly within the total content therfore not expanding larger  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*HTML element selector */
 body {
     background-color: #d9dcd6;
 }
-
+/* HTML element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* appointing the heading 1 of the header selction */
  header h1 { 
     display: inline-block;
     font-size: 48px;
 }
-
+/* header seo class being targeted  */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*nav within the header being targeted  */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +33,25 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*The list element  */
 header nav ul {
     list-style-type: none;
 }
-
+/* the list item element */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*anchor element   */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* paragraph element */
 p {
     font-size: 16px;
 }
-
+/* hero class*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,11 +60,13 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*class selector for content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/*content class selecting specified child */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -71,25 +75,26 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* image part of content class */
 .content img {
     max-height: 200px;
 }
-
+/*  */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* class float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*class float right   */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*cllass benefits*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,6 +105,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/*Class benefits section being targeted*/
 .benefits section{
     margin-bottom: 32px;
     color: #ffffff;
@@ -121,13 +127,14 @@ p {
     max-width: 150px;
 }
 
-
+/* changed the div section to footer creating it more accessible */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/*  */
 
 footer h2 {
     font-size: 20px;
